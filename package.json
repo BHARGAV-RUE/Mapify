@@ -1,0 +1,68 @@
+{
+  "name": "mapify",
+  "displayName": "Mapify",
+  "description": "Converts your codebase into a clean ASCII tree with human-readable semantic labels.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mapify.generateMap",
+        "title": "Mapify: Generate Project Map"
+      },
+      {
+        "command": "mapify.generateMapFromFolder",
+        "title": "Mapify: Generate Map from Here"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "mapify.generateMapFromFolder",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Mapify",
+      "properties": {
+        "mapify.maxDepth": {
+          "type": "number",
+          "default": 4,
+          "description": "Maximum folder depth to display"
+        },
+        "mapify.showSemanticLabels": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show semantic labels next to folders"
+        },
+        "mapify.copyToClipboard": {
+          "type": "boolean",
+          "default": true,
+          "description": "Auto-copy output to clipboard"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.120.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
