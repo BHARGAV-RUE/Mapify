@@ -328,23 +328,6 @@ semantics.js   → semantic architecture understanding
 
 ---
 
-# 🚀 Roadmap
-
-Planned future features:
-
-- AI architecture summaries
-- Dependency analysis
-- Visual graph mode
-- Token-aware AI export
-- Interactive tree viewer
-- Smart importance ranking
-- Monorepo understanding
-- Architecture diagrams
-- Markdown export
-- JSON export
-
----
-
 # 🧪 Local Development
 
 ## Clone Repository
