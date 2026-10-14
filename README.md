@@ -342,7 +342,6 @@ Planned future features:
 - Architecture diagrams
 - Markdown export
 - JSON export
-- AI context compression
 
 ---
 
