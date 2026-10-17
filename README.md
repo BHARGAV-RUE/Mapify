@@ -1,26 +1,26 @@
 # 🧭 Mapify
 
 > Transform your codebase into a clean, semantic architecture map.
-
-Mapify is a powerful VS Code extension that converts complex project structures into readable, architecture-aware project maps with intelligent semantic labels.
+  
+Mapify is a powerful VS Code extension that converts complex project structures into readable, architecture-aware project maps with intelligent semantic labels. 
 
 Instead of showing only raw folders and files, Mapify understands common software architecture patterns and explains the purpose of directories inside your codebase.
 
 Perfect for:
 - 🤖 AI prompts
 - 📚 Documentation
-- 🏗️ Architecture understanding
+- 🏗️ Architecture understanding 
 - 👥 Team onboarding
 - 🚀 Developer productivity
-- 🌳 Codebase exploration
+- 🌳 Codebase exploration 
 
 ---
 
 # ✨ Features
 
-## 🧠 Semantic Codebase Understanding
+## 🧠 Semantic Codebase Understanding 
 
-Mapify doesn't just print folders.
+Mapify doesn't just print folders. 
 
 It recognizes architectural patterns like:
 
